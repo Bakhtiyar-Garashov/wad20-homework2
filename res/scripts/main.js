@@ -15,7 +15,7 @@ $(function () {
             let author = $('<div class=post-author>');
             let author_info = $('<span class=post-author-info>');
             let profile_pic = $('<img>').attr('src', post.author.avatar);
-            let author_name = $('<small>').text(post.author.firstname + post.author.lastname);
+            let author_name = $('<small>').text(post.author.firstname +" "+ post.author.lastname);
             let post_date = $('<small>').text(post.createTime);
             author_info.append(profile_pic)
             author_info.append(author_name)
