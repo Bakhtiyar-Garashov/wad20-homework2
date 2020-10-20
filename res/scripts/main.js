@@ -59,7 +59,8 @@ $(function () {
             $('.main-container').append(each_post);
         }
     });
-
+    
+    // Toggle class when button clicked to change style dynamically
     $(document).on('click','.like-button',function () {
         $(this).toggleClass('liked')
     });
