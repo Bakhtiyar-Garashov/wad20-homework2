@@ -113,7 +113,7 @@ nav div.avatar-container {
     text-align: right;
 }
 
-.main-container {
+.main-container, .browse-container{
     width: 50%;
     min-height: 100%;
     margin: auto auto;
