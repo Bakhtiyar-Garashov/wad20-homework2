@@ -46,7 +46,7 @@ $(function () {
 
             // post action div
             let post_actions = $('<div class=post-actions>')
-            let btn = $('<button class=like-button>').text("100k")
+            let btn = $('<button class=like-button>').text(post.likes)
             post_actions.append(btn);
 
             // append al subnodes into main node
