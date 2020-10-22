@@ -90,6 +90,33 @@ nav div img {
     object-position: top center;
 }
 
+.account-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top center;
+    margin-top: 3%;
+}
+
+.account-name{
+    font-size: 70%;
+    margin: 5% auto 5% auto
+}
+
+.account {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(187, 180, 184, 0.44);
+    border-radius: 2px;
+
+    margin: 20px 10px;
+    width: 40%;
+    float: left;
+}
+
+
 nav div.search-container > input {
     box-sizing: border-box;
     height: 30px;
@@ -119,6 +146,10 @@ nav div.avatar-container {
     margin: auto auto;
     padding: 90px 15px 15px 15px;
     background-color: #ffffff;
+}
+
+.browse-container{
+    overflow: hidden;
 }
 
 .post {
@@ -201,4 +232,14 @@ nav div.avatar-container {
 
 .like-button.liked {
     background-color: #01579b;
+}
+
+.follow-button{
+    background-color: #7f0a9b;
+}
+
+.follow-button.followed{
+    background-color: #fef9ff;
+    color: #7f0a9b;
+    border: 1px solid #7f0a9b;
 }
