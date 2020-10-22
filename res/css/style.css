@@ -110,10 +110,11 @@ nav div img {
     border-width: 1px;
     border-color: rgba(187, 180, 184, 0.44);
     border-radius: 4px;
-
     margin: 5px;
-    width: 40%;
-    float: left;
+    width: auto;
+    align-items:center;
+    max-height: 200px;
+    max-width: 400px;
 }
 
 
@@ -238,8 +239,15 @@ nav div.avatar-container {
     background-color: #7f0a9b;
 }
 
-.follow-button.followed{
+.followed{
     background-color: #fef9ff;
     color: #7f0a9b;
     border: 1px solid #7f0a9b;
+}
+
+.browse-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0;
+  grid-template-rows: 200px 200px;
 }
