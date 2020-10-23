@@ -1,5 +1,5 @@
 
-// TASK 2. Fetch user profile information from users endpoint
+// TASK 1. Fetch user profile information from users endpoint
 
 $(function () {
 	
