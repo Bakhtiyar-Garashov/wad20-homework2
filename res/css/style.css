@@ -251,3 +251,35 @@ nav div.avatar-container {
   grid-column-gap: 0;
   grid-template-rows: 200px 200px;
 }
+
+.avatar:hover{
+	cursor: pointer;
+}
+
+.drop-down-menu{
+	display:none;
+	
+	position: fixed;
+	top: 50px;
+	right: 0;
+	
+	background-color: #ffffff;
+	
+	padding: 5px;
+	
+	box-shadow: 0 0 15px rgba(38, 50, 56, 0.33);
+}
+
+.drop-down-menu p {
+	text-align: right;
+	margin: 3px;
+}
+
+.drop-down-menu a {
+	padding-bottom: 5px;
+	display:inline-block;
+	width: 100%;
+	border-top: 1px solid lightgray;
+	text-align: right;
+	
+}
